@@ -8,7 +8,7 @@ The files given in this repository are organized as follows:
 File                            | Description
 --------------------------------|------------------------------------------------------------------------------------------ 
 utils.py 					              | Utility functions needed to implement the lognormal fSABR process
-fSABR.py				                | Class implementing the fSABR process
+fSABR.py				                | Class implementing the lognormal fSABR process
 fSABR_test.py			              | Generate paths for fBM and fSABR process; check statistical properties of fBMs
 tvo_pricing.py				          | TVO pricing via 3 methods: Monte Carlo and 2 analytic approximations
 tvo_pricingSensitivity.py		    | TVO pricing formulae analysis and sensitivity to parameter variations
@@ -16,4 +16,4 @@ tvo_pricingSensitivityPlots.py	| Plotting the sensitivities computed in tvo_pric
 tvo_pricingNotebook.ipynb       | Example Jupyter which demonstrates usage of the code
 
 
-Tested with Python 3.6.3 (Anaconda custom on 64-bit) on a macOS X Yosemite (version 10.10.5) with processor 2 x 2.4 GHz 6-Core Intel Xeon.
+The code was tested with Python 3.6.3 (Anaconda custom on 64-bit) on a macOS X Yosemite (version 10.10.5) with processor 2 x 2.4 GHz 6-Core Intel Xeon.
