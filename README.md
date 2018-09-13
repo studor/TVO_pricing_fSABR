@@ -13,7 +13,7 @@ fSABR_test.py			              | Generate paths for fBM and fSABR process; check 
 tvo_pricing.py				          | TVO pricing via 3 methods: Monte Carlo and 2 analytic approximations
 tvo_pricingSensitivity.py		    | TVO pricing formulae analysis and sensitivity to parameter variations
 tvo_pricingSensitivityPlots.py	| Plotting the sensitivities computed in tvo_pricingSensitivity.py
-tvo_pricingNotebook.ipynb       | Example Jupyter which demonstrates usage of the code
+tvo_pricingNotebook.ipynb       | Example Jupyter notebook which demonstrates usage of the code
 
 
 The code was tested with Python 3.6.3 (Anaconda custom on 64-bit) on a macOS X Yosemite (version 10.10.5) with processor 2 x 2.4 GHz 6-Core Intel Xeon.
